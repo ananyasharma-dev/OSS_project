@@ -20,9 +20,3 @@ The following scripts were developed to perform a deep-dive audit of the local e
 4. **`4_log_analyzer.sh`**: Scans system logs (`/var/log/dpkg.log`) to track the history of Python-related installations and updates.
 5. **`5_manifesto.sh`**: An interactive script that generates a personalized Free and Open Source Software (FOSS) manifesto.
 
-## How to Run
-To execute these scripts in a Linux/Ubuntu environment (such as GitHub Codespaces):
-
-```bash
-chmod +x *.sh
-./1_system_identity.sh
